@@ -41,7 +41,6 @@
                         <input type="hidden" name="no_pendaftaran" value="<?php echo $d['no_pendaftaran']; ?>">
                         <button type="submit" class="btn-edit">Edit</button>
                     </form>
-
                 </td>
             </tr>
         <?php } ?>

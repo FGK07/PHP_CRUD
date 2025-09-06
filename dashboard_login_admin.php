@@ -1,5 +1,5 @@
 <?php
-session_start(); // WAJIB di awal
+session_start();
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['username'] ?? '';
