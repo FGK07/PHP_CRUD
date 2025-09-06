@@ -15,7 +15,7 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 4px 4px 4px 4px rgb(214, 213, 213);
-    width: 300px;
+    width: 300px; /* perkecil form */
 }
 
 .container-form h2 {

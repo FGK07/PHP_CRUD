@@ -6,7 +6,7 @@
     <title>REGISTER</title>
     <link rel="stylesheet" href="register.css">
 </head>
-<body class="">
+<body>
     <?php
     include('koneksi.php');
     ?>
@@ -32,6 +32,10 @@
             <input type="text" name="agama" placeholder="Masukkan agama">
             </br>
             <button type="submit">SUBMIT</button>
+            </br>
+        </form>
+        <form action="dashboard_login_admin.php" class="form">
+            <button type="submit">LOGIN SEBAGAI ADMIN</button>
         </form>
     </div>
 </body>
