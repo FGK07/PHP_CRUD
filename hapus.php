@@ -25,16 +25,6 @@ if (isset($_POST['no_pendaftaran'])) {
         }
 
         header("Location: dashboard_admin_action.php");
-        // cek apakah tabel kosong
-        $result = $koneksi->query("SELECT COUNT(*) as total FROM siswa");
-        $row = $result->fetch_assoc();
-
-        if ($row['total'] == 0) {
-            // reset auto_increment kalau tabel kosong
-            $koneksi->query("ALTER TABLE siswa AUTO_INCREMENT = 1");
-        }
-
-        header("Location: index.php");
         exit();
     } else {
         echo "Gagal menghapus data: " . $hapus->error;
