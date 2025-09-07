@@ -2,7 +2,7 @@
 // koneksi database 
 include 'koneksi.php'; 
 
-if($_SERVER['REQUEST METHOD'] == 'POST') {
+if($_SERVER['REQUEST_METHOD'] == 'POST') {
     if(isset($_POST['no_pendaftaran'], $_POST['nim'], $_POST['nama'], $_POST['alamat'], $_POST['jurusan'], $_POST['tanggal'], $_POST['agama'])){
 
         // menangkap data yang di kirim dari form 
